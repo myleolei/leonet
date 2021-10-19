@@ -21,7 +21,7 @@ A network manage tool ,can fast join different network
 替代VPN,远程办公,打通不同云厂商的网络...
 
 # 网络架构图
-
+![avatar](doc/leonet.png)
 * "网关"可以与"代理"处在同一网络,只需要"网关"可被公网公开访问即可
 * "代理"仅需要能够与"网关"建立HTTP2连接即可,无需在公网暴露
 * "网关"和"代理"均可以使用负载均衡技术部署多个节点
