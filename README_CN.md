@@ -54,7 +54,7 @@ A network manage tool ,can fast join different network
 7. 客户端缓存DNS查询结果,并通过IP与"服务A1"完成后续请求,过程同"服务A1"无需使用域名访问情况
 
 # 平台支持
-"网关","代理" 使用Go开发,理论上支持任意平台
+"网关","代理" 使用Go开发,理论上支持常见平台
 
 客户端支持Windows,Linux,MacOS,Android.
 
