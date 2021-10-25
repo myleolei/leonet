@@ -7,7 +7,7 @@ A network manage tool ,can fast join different network
 相对VPN具备以下优势:
 
 1. 配置简单,图形化配置
-2. 零信任设计
+2. 对网络资源进行细粒度的访问控制
 3. 双向TLS认证
 
 相对内网穿透具备以下优势:
@@ -18,7 +18,7 @@ A network manage tool ,can fast join different network
 4. 支持DNS流量转发,采用了内部DNS的服务也可通过域名访问
 
 # 应用场景
-替代VPN,远程办公,打通不同云厂商的网络...
+替代VPN、内网穿透,远程办公,打通不同云厂商的网络,访问不可达网络,游戏加速(需要二次开发)...
 
 # 网络架构图
 ![avatar](doc/leonet.png)
@@ -54,5 +54,22 @@ A network manage tool ,can fast join different network
 7. 客户端缓存DNS查询结果,并通过IP与"服务A1"完成后续请求,过程同"服务A1"无需使用域名访问情况
 
 # 平台支持
-"网关","代理"使用Java开发,并运行在GraaLVM上,任何支持GraaLVM的设备均可
-客户端支持Windows,Linux,MacOS,Android.IOS由于政策限制暂无法支持
+"网关","代理" 使用Go开发,理论上支持任意平台
+
+客户端支持Windows,Linux,MacOS,Android.
+
+IOS暂不法支持
+
+# 子项目列表
+
+[leonet-gateway](https://github.com/myleolei/leonet-gateway)
+
+leonet-agent
+
+leonet-client
+
+leonet-client-windows
+
+leonet-client-android
+
+
