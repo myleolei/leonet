@@ -72,4 +72,9 @@ leonet-client-windows
 
 leonet-client-android
 
+# 开发计划
+目前此项目处于规划中,此文档也做为设计文档描述主要原理.每个组件的设计文档位于各子项目中
 
+项目将按顺序优先开发 gateway,agent,client
+
+后续将支持windwos和android平台的GUI客户端
